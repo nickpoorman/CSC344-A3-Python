@@ -1,0 +1,15 @@
+#################################
+# Nicholas Poorman - 2010
+#################################
+
+jquery.color.js - a jquery plugin that allows for color animations
+	used on the fade out on the index page when deleting a comment
+
+jquery.min.js - the google compacted version of the jquery framework.
+	Most sites link directly to the google version
+
+slide.js - the jquery javacript script that handles the sliding menu
+	at the top of the index page
+
+pngfix/ - the directory that holds the fix for the stupid IE browser
+	The slider on the index page uses this

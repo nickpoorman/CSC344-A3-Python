@@ -1,0 +1,23 @@
+#########################################################
+# Nicholas Poorman - 2010
+# VentInfo.net - Backend
+#########################################################
+
+ventrilo_status - the program that created the UDP packet to ping the server for its status information
+
+get-comments.py - the python script that parses the info and persists it to the sqlite database
+	*Note: Be sure to change the rootdir for the comments.db in the script
+
+logs - the file that any errors get logged to
+
+comments.db - the sqlite3 database file that holds all our information
+	*Note: Make sure that the path to the comments.db is readable 
+	 	and writable by the webserver as well as the user running
+		the get-comments.py script.
+
+To have the script run every minute on the server add the following to your crontab:
+
+	* * * * * <PATH TO get-comments.py> >> <PATH TO logs> 2>&1
+
+	ex:
+	* * * * * /home/nick/csc344/ventcomments/get-comments.py >> /home/nick/csc344/ventcomments/logs 2>&1

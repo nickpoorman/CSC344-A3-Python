@@ -1,0 +1,13 @@
+#################################
+# Nicholas Poorman - 2010
+#################################
+
+These files should be in your root web directory with the appropriate permissions.
+The description for each file can be found in the header of the respective file.
+
+css/ - all the css files
+images/ - all the image files used on the website
+js/ - all the javascript and jquery files
+
+Make sure mod_python is configured properly for the web directory. 
+	Also set the PythonHandler to be be default handler. Google it.

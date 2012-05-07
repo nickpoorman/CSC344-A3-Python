@@ -1,0 +1,31 @@
+##################################################
+# Nicholas Poorman - 2010
+# VentInfo.net - A social ventrilo comment website
+##################################################
+
+Just as a note I have never done any web development before this so learning everything about
+	python, mod_pyton, regex, cgi, html, javascript, jquery, cron, sqlite3, and proper apache 
+	permissions all had to be learned to complete this project. I also had to figure out 
+	how to get the python scripts to interact with the proprietary, closed source Ventrilo protocol.
+
+About:
+VentInfo.net grabs the comments from the popular online voice chatting software Ventrilo
+	and persists them to a databse. The webiste provides a social networking aspect to
+	other users comments.
+
+Future plans:
+	Registered users will have the ability to tether their
+		Ventrilo server account with their VentInfo.net account.
+
+	Each user will have the ablility to delete their own comments from the site.
+
+	Users will be able to add their own private Ventrilo servers to be monitored
+		by the website.
+
+	Users will be able to change their avatar of thier profile on the site. Or
+		link to their gravatar account. 
+
+	Each user will have the ability to comment on other users Ventrilo comments.
+
+	The index page will be redone to use proper web design patterns, such as divs
+		for the layout instead of a table with CSS.
